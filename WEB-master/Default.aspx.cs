@@ -17,8 +17,8 @@ public partial class _Default : System.Web.UI.Page
 
         double ttotal=0;
         double nno1 = Convert.ToDouble(no1.SelectedValue);  
-        double nno2 = Convert.ToDouble(no2.Text);
-        double nno3 = Convert.ToDouble(no3.Text);
+        double nno2 = Convert.ToDouble(no2.SelectedValue);
+        double nno3 = Convert.ToDouble(no3.SelectedValue);
         double ccost1 = Convert.ToDouble(cost1.Text);
         double ccost2 = Convert.ToDouble(cost2.Text);
         double ccost3 = Convert.ToDouble(cost3.Text);
@@ -121,7 +121,7 @@ public partial class _Default : System.Web.UI.Page
 
     protected void C2_CheckedChanged(object sender, EventArgs e)
     {
-        double nno2 = Convert.ToDouble(no2.Text);
+        double nno2 = Convert.ToDouble(no2.SelectedValue);
         double lliltt2 = 0;
         double ccost2 = Convert.ToDouble(cost2.Text);
 
@@ -132,7 +132,7 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void C3_CheckedChanged(object sender, EventArgs e)
     {
-        double nno3 = Convert.ToDouble(no3.Text);
+        double nno3 = Convert.ToDouble(no3.SelectedValue);
         double lliltt3 = 0;
         double ccost3 = Convert.ToDouble(cost3.Text);
 

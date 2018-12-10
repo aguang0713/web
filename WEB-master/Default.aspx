@@ -47,14 +47,26 @@
             <asp:ListItem>9</asp:ListItem>
             <asp:ListItem>10</asp:ListItem>
         </asp:DropDownList>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 單價:&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;單價:&nbsp;
         <asp:TextBox ID="cost1" runat="server" AutoPostBack="True">500</asp:TextBox>
         &nbsp;&nbsp;&nbsp; 小計:
         <asp:Label ID="liltt1" runat="server"></asp:Label>
         <br />
         <asp:CheckBox ID="C2" runat="server" Text="牛肉披薩" AutoPostBack="True" OnCheckedChanged="C2_CheckedChanged" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 數量&nbsp;&nbsp; 
-        <asp:TextBox ID="no2" runat="server" AutoPostBack="True">0</asp:TextBox>
+        <asp:DropDownList ID="no2" runat="server" Height="17px" Width="149px">
+            <asp:ListItem>0</asp:ListItem>
+            <asp:ListItem>1</asp:ListItem>
+            <asp:ListItem>2</asp:ListItem>
+            <asp:ListItem>3</asp:ListItem>
+            <asp:ListItem>4</asp:ListItem>
+            <asp:ListItem>5</asp:ListItem>
+            <asp:ListItem>6</asp:ListItem>
+            <asp:ListItem>7</asp:ListItem>
+            <asp:ListItem>8</asp:ListItem>
+            <asp:ListItem>9</asp:ListItem>
+            <asp:ListItem>10</asp:ListItem>
+        </asp:DropDownList>
 &nbsp;&nbsp;&nbsp;&nbsp; 單價:&nbsp;
         <asp:TextBox ID="cost2" runat="server" AutoPostBack="True">550</asp:TextBox>
         &nbsp;&nbsp;&nbsp; 小計:
@@ -62,7 +74,19 @@
         <br />
         <asp:CheckBox ID="C3" runat="server" OnCheckedChanged="C3_CheckedChanged" Text="海鮮披薩" AutoPostBack="True" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 數量&nbsp;&nbsp; 
-        <asp:TextBox ID="no3" runat="server" AutoPostBack="True">0</asp:TextBox>
+        <asp:DropDownList ID="no3" runat="server" Height="16px" Width="149px">
+            <asp:ListItem>0</asp:ListItem>
+            <asp:ListItem>1</asp:ListItem>
+            <asp:ListItem>2</asp:ListItem>
+            <asp:ListItem>3</asp:ListItem>
+            <asp:ListItem>4</asp:ListItem>
+            <asp:ListItem>5</asp:ListItem>
+            <asp:ListItem>6</asp:ListItem>
+            <asp:ListItem>7</asp:ListItem>
+            <asp:ListItem>8</asp:ListItem>
+            <asp:ListItem>9</asp:ListItem>
+            <asp:ListItem>10</asp:ListItem>
+        </asp:DropDownList>
 &nbsp;&nbsp;&nbsp;&nbsp; 單價:&nbsp;
         <asp:TextBox ID="cost3" runat="server" AutoPostBack="True">650</asp:TextBox>
         &nbsp;&nbsp;&nbsp; 小計:
